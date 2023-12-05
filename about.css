@@ -1,0 +1,65 @@
+/* Reset some default margin on the body */
+body {
+    margin: 0;
+    background-image: url('bgimg1.jpg'); /* Replace 'background-image.jpg' with the actual path to your background image */
+    background-size: cover; /* Ensures that the background image covers the entire viewport */
+    background-position: center top; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent the background image from repeating */
+    background-attachment: fixed; /* Keep the background fixed while scrolling */
+}
+
+/* Style for the main section */
+section {
+    max-width: 800px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+/* Style for the heading in the section */
+h1 {
+    color: #000000;
+    font-size: 34px;
+}
+
+/* Style for the paragraph in the section */
+p {
+    color: #ffffff;
+    font-size: 24px;
+}
+
+/* Add this to your about.css or create a new CSS file */
+
+/* Style for the new photo section */
+.photo-section {
+    display: flex;
+    justify-content: space-around;
+    margin: 235px 330px;
+}
+
+/* Style for each photo container */
+.photo-container {
+    text-align: center;
+}
+
+/* Style for each photo */
+.photo {
+    width: 250px; /* Adjust the width as needed */
+    height: 350px; /* Adjust the height as needed */
+    object-fit: cover; /* Maintain aspect ratio */
+    border-radius: 10px; /* Optional: Add rounded corners */
+}
+
+/* Style for each photo description */
+/* Style for each photo description */
+.photo-description {
+    color: #ffffff;
+    font-size: 18px;
+    margin-top: 10px; /* Adjust the margin as needed */
+    opacity: 0; /* Start with zero opacity */
+    transition: opacity 0.3s ease; /* Add a smooth transition effect */
+}
+
+/* Hover effect for photo container */
+.photo-container:hover .photo-description {
+    opacity: 1; /* Change opacity to 1 on hover */
+}
