@@ -1,0 +1,51 @@
+body {
+    background-color: rgb(75, 24, 88);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.center-text {
+    position: absolute;
+    top: 15%;
+    left: 0%;
+    font-size: 28px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.center-text h1 {
+    margin: 0;
+}
+
+.center-text .contact {
+    color: black;
+}
+
+.center-text .us {
+    color: white;
+}
+
+.header-button {
+    background-color: rgba(0, 0, 0, 0.3); 
+    color: white; 
+    padding: 10px 20px; 
+    border: none; 
+    cursor: pointer; 
+    font-size: 16px;
+}
+
+
+.header-button {
+    position: absolute;
+    left: 50px;
+    top: 20px;
+}
+
+
+.center-text .contact-text {
+    color: white;
+    font-size: 18px;
+    position: relative;
+    top: 100px; 
+}
+

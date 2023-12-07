@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+}
+
+header {
+    position: relative;
+    background-color: rgba(51, 51, 51, 0.5); 
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+.logo {
+    display: block;
+    margin: 0 auto; 
+}
+
+.center-text {
+    text-align: center;
+    padding: 2em; 
+}
+
+footer {
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
